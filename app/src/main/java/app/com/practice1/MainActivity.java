@@ -131,6 +131,8 @@ public class MainActivity extends AppCompatActivity {
         fName.setText("");
         lName.setText("");
         rgGender.clearCheck();
+        spJobProf.setSelection(0);
+        spExperience.setSelection(0);
     }
 
     private class Pojo{
